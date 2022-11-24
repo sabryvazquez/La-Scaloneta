@@ -1,35 +1,47 @@
-*{margin: 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-.a{
-margin: 50px;
-padding: 70px;
-display: inline-block;
-font-size: xx-large;
-font-family: fantasy;
-color: rgb(98, 183, 216);-webkit-text-stroke: 1px black;
-background-image: url(./istockphoto-610426496-612x612.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+
+.a {
+    margin: 50px;
+    padding: 70px;
+    display: inline-block;
+    font-size: xx-large;
+    font-family: fantasy;
+    color: rgb(98, 183, 216);
+    -webkit-text-stroke: 1px black;
+    background-image: url(./istockphoto-610426496-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
-.menu{
+.menu {
     list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    
+    margin: 5px;
+    padding: 5px;
+
 }
-.menu li{
+
+.menu li {
     display: inline-block;
     text-align: center;
     margin: 10px;
     padding: 10px;
 
 }
-.menu li a{
+
+.menu li a {
     font-size: x-large;
     font-family: 'Syne Mono', monospace;
     text-decoration: none;
@@ -37,25 +49,27 @@ background-size: cover;
 
 }
 
-.menu li:hover{
+.menu li:hover {
     color: blueviolet;
     background-color: lightskyblue;
     border-radius: 50%;
 }
 
-.titulo{
+.titulo {
     margin: 10px;
     padding: 10px;
     color: cornflowerblue;
     font-family: 'Abril Fatface', cursive;
 }
-.subt{
+
+.subt {
     margin: 15px;
     padding: 20px;
     color: darkslategray;
     font-family: 'Bebas Neue', cursive;
 }
-.relato{
+
+.relato {
     margin: 10px;
     padding: 10px;
     text-align: start;
@@ -64,7 +78,7 @@ background-size: cover;
     font-family: 'Marhey', cursive;
 }
 
-.saf{
+.saf {
     font-family: 'Sriracha', cursive;
     text-decoration: underline;
     margin-left: 2%;
@@ -73,24 +87,13 @@ background-size: cover;
     background-size: 100ch left;
 }
 
-.lista{
+.lista {
     margin: 1%;
     padding: 2%;
     line-height: 1cm;
 }
-.lista li{
+
+.lista li {
     font-family: 'Black Ops One', cursive;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
