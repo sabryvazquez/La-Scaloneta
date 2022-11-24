@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="icon" href="../multimedia/afa logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/multimedia.css">
 </head>
 
 <body>
     <header>
+        <h1 class="a">
+        La Scaloneta
+    </h1>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="../index.html"><img src="../multimedia/Scaloneta logo.png" width="50px" alt="Home"></a></li>
                 <li><a href="./reseña historica.html">Reseña Historica</a></li>
+                <li><a href="./pages/Fixture.html">Fixture</a></li>
                 <li><a href="./galeria.html">Galeria</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
@@ -25,7 +33,73 @@
 
     <main>
 
-<div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13107.594863400864!2d-58.546052092187516!3d-34.78332499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccfdee199c2e9%3A0xce5afb4539af59ec!2sA.F.A.%20Predio%20Ezeiza!5e0!3m2!1ses-419!2sar!4v1668977130846!5m2!1ses-419!2sar" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="">
+            <fieldset>
+                <legend>Escribinos</legend>
+                <br>
+                        <div>
+                            <label for="nombre">NOMBRE</label>
+                            <input type="text" name="nombre" placeholder="Juan">
+                        </div>  
+                        <br>
+                        <div>
+                            <label for="apellido">APELLIDO</label>
+                            <input type="text" name="apellido" placeholder="Perez" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Escribe tu mail *</label>
+                            <input type="email" name="email" required>
+                        </div> 
+                        <br>
+                        <div>
+                            <label for="nacimiento">Fecha de nacimiento</label>
+                            <input type="date">
+                        </div>
+                        <br>
+                        
+                        <div>
+                            <label for="pais">Selecciona tu Nacionalidad</label>
+                            <select name="pais" id="">
+                                <option value="arg">ARGENTINA</option>
+                                <option value="uru">URUGUAY</option>
+                                <option value="ch">CHILE</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="genero">Género</label>
+                            <input type="radio" name="genero" value="mujer">mujer
+                            <input type="radio" name="genero" value="varon">Hombre
+                            <input type="radio" name="genero" value="undecl">no declaro
+                        </div>
+                        <br>
+                        <div>
+                            <label for="comentario">Dejanos tu mensaje</label><br>
+                            <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>Acepta términos y condiciones
+                            <input type="checkbox" name="acepta" value="1">
+                        </div>
+                    
+            
+            <br><br>
+                        <div>
+                            <input type="submit" value="Enviar Datos">
+                            <input type="reset" value="Borrar Datos">
+                        </div>
+            </fieldset>
+                </form>
+                <br>
+                <br>
+                <br>
+
+<div>
+    <address> 
+        <h1>Veni a visitarnos!!</h1>
+        Au Tte. Gral. Pablo, A AU Ricchieri S/N, B1802, Ezeiza,Provincia de Buenos Aires
+    </address>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13107.594863400864!2d-58.546052092187516!3d-34.78332499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccfdee199c2e9%3A0xce5afb4539af59ec!2sA.F.A.%20Predio%20Ezeiza!5e0!3m2!1ses-419!2sar!4v1668977130846!5m2!1ses-419!2sar" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 
@@ -38,7 +112,7 @@
                 <li>23.Emiliano Martinez</li>
                 <li>12.Geronimo rulli</li>
                 <li>1.Franco Armani</li>
-                <li>26 Nahuel MOlina</li>
+                <li>26 Nahuel Molina</li>
                 <li>4.Gonzalo Montiel</li>
                 <li>13.Cristian Romero</li>
                 <li>6.German Pezzela</li>
@@ -70,7 +144,16 @@
     </main>
     
     <footer>
-        
+        <h1>Encontranos en nuestras redes sociales</h1>
+        <p>
+            <a href="https://www.facebook.com/AFAOFICIAL/about_profile_transparency"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="Logo de Facebook" width="20px"> Facebook</a>
+            <br>
+             <a href="https://www.instagram.com/afa.oficial/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Logo de Instagram" width="20px">Instagram</a>
+             <br><a href="https://twitter.com/AFA"> <img src="https://e7.pngegg.com/pngimages/804/985/png-clipart-social-media-logo-computer-icons-information-twitter-logo-media.png" alt="Logo de twitter" width="20px">Twitter</a>
+             <br><a href="https://www.youtube.com/user/AFAOficial"><img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png" alt="Logo de youtube" width="22px">Youtube</a>      
+         <br><a href="https://onefootball.com/es/inicio"><img src="https://graffica.info/wp-content/uploads/2020/07/Onefootball-nuevo-logotipo-1-scaled-1200x900.jpg" alt="Logo de OneFootball" width="33px">OneFootball</a>
+         
+        </p>
     </footer>
     
 </body>
